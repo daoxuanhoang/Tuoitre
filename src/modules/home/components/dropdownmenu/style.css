@@ -7,12 +7,10 @@ ul.dropdown-item {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    top: 65px;
-    left: 0%;
-    width: 375px;
+    top: 90px;
     background-color: white;
     font-weight:bold;
-    position: absolute;
+    position: fixed;
     box-shadow: 1px 2px 10px 1px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -27,7 +25,7 @@ ul.dropdown-item  li a {
 ul.dropdown-item  li {
     padding: 8px 16px;
 }
-ul.dropdown-item  i:last-child {
+ul.dropdown-item  li:last-child {
     border-bottom: none;
 }
 ul.dropdown-item  li:hover {

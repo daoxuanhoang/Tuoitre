@@ -1,0 +1,48 @@
+.row{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: none !important;
+
+    .container{
+        display: flex;
+        width: 35%;
+        margin-bottom: 40px;
+        justify-content: space-around;
+        box-shadow: 0px 0px 10px -3px #888888;
+
+        .fbox-media{
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 80%;
+            }
+        }
+
+        .fbox-desc{
+            width: 60%;
+
+            ul{
+                padding: 0px;
+                list-style: none;
+
+                .ls0{
+                    font-size: 21px;
+                    color: black;
+                    font-weight: 700;
+                }
+
+                .mt-2{
+                    font-size: 17px;
+                    padding-top: 10px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

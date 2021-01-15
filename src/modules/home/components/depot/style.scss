@@ -1,0 +1,60 @@
+.depot{
+    padding-top: 30px;
+    width: 100%;
+
+    .heading-wrap ul{
+        list-style: none;
+        text-align: center;
+
+        .heading-before{
+            font-size: 30px;
+            font-weight: 500;
+            font-family: revert;
+            color: black;
+        }
+
+        .heading-after{
+            font-size: 17px;
+            font-family: revert;
+            color: black;
+            padding-top: 10px;
+        }
+    }
+
+    .container{
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+        
+        .fbox-icon{
+            width: 100%;
+
+            img{
+                width: 75%;
+                cursor: pointer;
+            }
+        }
+
+        .fbox-btn{
+            width: 100%;
+
+            button{
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                background-color: #F47F1F;
+                color: white;
+                width: 10%;
+                padding: 10px 0px;
+                font-size: 17px;
+                font-weight: 600;
+                font-family: revert;
+            }
+        }
+    }
+  }

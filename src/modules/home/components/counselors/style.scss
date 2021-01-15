@@ -1,0 +1,23 @@
+.slider-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 5%;
+
+    .clear-fix{
+        width: 50%;
+    }
+
+    .text{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 2%;
+
+        span{
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+}

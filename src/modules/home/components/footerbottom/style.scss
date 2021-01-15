@@ -1,0 +1,25 @@
+.copy-right{
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+
+    .col-md-3{
+        width: 25%;
+        margin-left: 5px;
+
+        ul{
+            list-style: none;
+            padding: 0px;
+        }
+    }
+
+    .col-md-4{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
+}

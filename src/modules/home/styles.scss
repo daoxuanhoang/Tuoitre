@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+    header{
+      display: flex;
+      width: 100%;
+      height: 90px;
+      border-bottom: 1px solid dimgrey;
+  
+      .header-wrap{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+  
+      .logo{
+        display: flex;
+        float: left;
+        width: 15%;
+        height: 100%;
+  
+        .standard-logo{
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+  
+          img{
+            width: 100%;
+            height: 60%;
+          }
+        }
+      }
+  
+      .primary-menu-trigger{
+        display: flex;
+        width: 60%;
+        height: 100%;
+        float: right;
+        justify-content: space-around;
+        align-items: center;
+  
+        Button{
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          border: none;
+          background-color: white;
+          font-size: 15px;
+          font-weight: 954;
+          padding: 10px 10px;
+  
+          a{
+            text-decoration: none;
+              color: #696969;
+              font-weight: 600;
+              font-family: revert;
+              height: 100%;
+              display: flex;
+              align-items: center;
+          }
+        }
+  
+        button:hover{
+          background-color: #e5e5e5;
+        }
+  
+        .account{
+          border: none;
+          background-color: #F47F1F;
+          width: 15%;
+          font-size: 15px;
+          font-family: revert;
+          font-weight: 600;
+          padding: 5px 0px;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          color: white;
+        }
+  
+        .account:hover{
+          background-color: red;
+        }
+  
+        img{
+          background-color: transparent;
+        }
+      }
+  }
+
+  main{
+    width: 100%;
+    padding-top: 55px;
+  
+    .title{
+      font-size: 50px;
+      width: 100%;
+      color: #696969;
+    }
+  }
+    
+    
+  footer{
+    background-color: #F47F1F;
+    color: white;
+    width: 100%;    
+  }
+}
+  

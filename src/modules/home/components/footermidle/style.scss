@@ -1,0 +1,42 @@
+.row-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+
+    .col-md-3{
+        width: 20%;
+
+        ul{
+            list-style: none;
+            padding: 0px;
+
+            .local{
+                font-size: 21px;
+                font-weight: 600;
+            }
+
+            .title{
+                font-size: 17px;
+            }
+        }
+    }
+
+    .col-md-4{
+        width: 35%;
+
+        ul{
+            list-style: none;
+            padding: 0px;
+
+            .local{
+                font-size: 21px;
+                font-weight: 600;
+            }
+
+            .title{
+                font-size: 17px;
+            }
+        }
+    }
+}

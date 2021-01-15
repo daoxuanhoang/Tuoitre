@@ -1,0 +1,55 @@
+.news{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+
+    .heading-block{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+
+        span{
+            font-size: 30px;
+            color: black;
+            font-weight: 700;
+        }
+    }
+
+    .row{
+        width: 100%;
+
+        .container{
+            width: 20%;
+            display: flex;
+            flex-wrap: wrap;
+            box-shadow: 0px 0px 10px -3px #888888;
+
+            .fbox-icon{
+                width: 100%;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            .fbox-desc{
+                padding: 20px 10px 10% 20px;
+                width: 100%;
+            }
+
+            .fbox-btn{
+                padding-top: 5%;
+                width: 100%;
+
+                a{
+                    padding-left: 20px;
+                    text-decoration: none;
+                    color: #F47F1F;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}
