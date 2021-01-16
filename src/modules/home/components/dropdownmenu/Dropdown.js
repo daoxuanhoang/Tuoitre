@@ -36,7 +36,7 @@ class Dropdown extends React.Component{
                 { this.state.displayMenu ? (
                     <ul className="dropdown-item">
                         {this.props.items.map(e=>{
-                            return  <li><a className="active" href="#">{e}</a></li>
+                            return  <li key={e}><a className="active" href="#">{e}</a></li>
                         })}
                        
                     </ul>

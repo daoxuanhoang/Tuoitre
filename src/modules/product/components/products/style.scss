@@ -1,0 +1,95 @@
+.product-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    .header-wrap{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+        .title{
+            font-size: 34px;
+            font-weight: 600;
+            color: black;
+            padding-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .content{
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .list-product{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 35px 15px 10px 15px;
+
+
+        .product-item{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            div{
+                width: 21%;
+                padding-bottom: 30px;
+
+                .fbox-icon{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 15px;
+
+                    a{
+                        width: 100%;
+                        text-align: center;
+                        color: black;
+
+                        img{
+                            width: 80%;
+                        }
+                    }
+                }
+
+                .fbox-desc{
+                    width: 100%;
+                    text-align: center;
+
+                    a{
+                        font-size: 24px;
+                        text-decoration: none;
+                        font-weight: 600;
+                        color: black;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                }
+            }
+        }
+    }
+
+    .fbox-btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        button{
+            background-color: #F47F1F;
+            border: none;
+            width: 20%;
+            border-radius: 10px;
+            color: white;
+            font-size: 30px;
+            padding: 10px 0px;
+        }
+    }
+}

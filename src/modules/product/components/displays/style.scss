@@ -1,0 +1,82 @@
+.display{
+    width: 100%;
+    padding-top: 35px;
+
+    .row{
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: none;
+
+        .col-md-5{
+            width: 36%;
+
+            b{
+                font-size: 34px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            ul{
+                padding: 0px 0px 0px 0px;
+                list-style-image: url(../../../../assets/images/v.jpg);
+
+                li{
+                    font-size: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+
+            ul::marker{
+                unicode-bidi: isolate;
+                font-variant-numeric: tabular-nums;
+                text-transform: none;
+                text-indent: 0px !important;
+                text-align: start !important;
+                text-align-last: start !important;
+            }
+
+            img{
+                width: 100%;
+            }
+
+
+            .fbox-img{
+                width: 90%;
+            }
+            .btn-n1{
+                border: none;
+                width: 60%;
+                background-color: #F47F1F;
+                color: white;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 5px;
+                padding: 10px 0px;
+            }
+
+            .btn-n2{
+                border: none;
+                width: 40%;
+                background-color: #F47F1F;
+                color: white;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 5px;
+                padding: 10px 0px;
+            }
+
+            .btn-n3{
+                border: none;
+                width: 35%;
+                background-color: #F47F1F;
+                color: white;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 5px;
+                padding: 10px 0px;
+            }
+        }
+    }
+  }

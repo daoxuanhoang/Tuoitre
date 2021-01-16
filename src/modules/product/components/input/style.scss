@@ -1,0 +1,30 @@
+.input-group{
+    display: flex;
+    justify-content: center;
+    padding: 14vh 0px;
+    width: 100%;
+
+    .from-control{
+        border: 1px solid #F47F1F;
+        border-radius: 5px 0px 0px 5px;
+        width: 30%;
+        margin: 0px;
+        padding: 10px 0px 10px 10px;
+        font-size: 20px;
+        font-style: italic;
+        font-family: revert;
+    }
+
+    .btn-control{
+        background-color: #F47F1F;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 0px 40px 0px 50px;
+        font-size: 20px;
+        border-radius: 0px 5px 5px 0px;
+        cursor: pointer;
+    }
+  }

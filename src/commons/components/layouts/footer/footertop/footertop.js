@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.scss';
-import tuoitre from '../../../../assets/images/tuoitre.svg';
-import android from '../../../../assets/images/android.svg';
-import apple from '../../../../assets/images/apple.svg';
+import tuoitre from '../../../../../assets/images/tuoitre.svg';
+import android from '../../../../../assets/images/android.svg';
+import apple from '../../../../../assets/images/apple.svg';
 
 class FooterTop extends React.Component{
     constructor(){
@@ -15,7 +15,7 @@ class FooterTop extends React.Component{
             <img src={tuoitre} alt=""/>
             <ul>
              {this.props.title.map(e=>{
-               return <li>{e}</li>
+               return <li key={e}>{e}</li>
              })}
             </ul>
           </div>
@@ -23,7 +23,7 @@ class FooterTop extends React.Component{
              <ul>
                <li className="fbox-desc">CHĂM SÓC KHÁCH HÀNG</li>
                {this.props.items.map(e=>{
-                 return <li>{e}</li>
+                 return <li key={e}>{e}</li>
                })}
              </ul>
           </div>

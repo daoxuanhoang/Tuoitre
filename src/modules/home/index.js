@@ -1,12 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import logo from '../../assets/images/logo.svg';
-import logoimg from '../../assets/images/logotuoitre.svg';
 import './styles.scss';
+import Header from '../../commons/components/layouts/header/header';
 import Banner from './components/banner/index';
 import Container from './components/container/index';
-import Button from '../../commons/components/buttonCustom/Button';
-import Dropdown from './components/dropdownmenu/Dropdown';
 import Services from './components/services/Services';
 import Display from './components/display/Display';
 import Depot from './components/depot/Depot';
@@ -14,33 +11,16 @@ import Sponsor from './components/sponsor/Sponsor';
 import Solution from './components/solution/Solution';
 import News from './components/news/News';
 import Counselors from './components/counselors/Counselors';
-import FooterTop from './components/footertop/FooterTop';
-import FooterMidle from './components/footermidle/FooterMidle';
-import FooterBottom from './components/footerbottom/FooterBottom';
+import FooterTop from '../../commons/components/layouts/footer/footertop/footertop';
+import FooterMidle from '../../commons/components/layouts/footer/footermidle/footermidle';
+import FooterBottom from '../../commons/components/layouts/footer/footerbottom/footerbottom';
 
 
 function Index(){
     return(
         <body>
       <header>
-     <div className="header-wrap">
-     <div className="logo">
-        <a href="#" className="standard-logo active">
-          <img src={logoimg} alt=""/>
-          </a>
-      </div>
-      <div className="primary-menu-trigger">
-       <Dropdown titleMain="Website theo yêu cầu" items={["Lưu trữ đám mây","Kho ứng dụng","Khuyến mãi"]}/>
-       <Button name="Kho giao diện"/>
-       <Dropdown className="dropdown-two" titleMain="Bảng giá" items={["Bảng giá website","Bảng giá dịch vụ nâng cấp & quản trị website","Bảng giá dịch vụ phát triển thương hiệu"]}/>
-       <Button name="Giải pháp SME"/>
-       <Button name="TTS News"/>
-       <Button name="Sứ mệnh"/>
-       <button className="account"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-      </svg>Đăng nhập</button>
-      </div>
-     </div>
+        <Header/>
       </header>
       <main>
         <Container/>

@@ -1,13 +1,12 @@
 import './App.css';
 import React from 'react';
-import Index from './modules/home';
+import Home from './modules/home';
+import Product from './modules/product';
 import { render } from '@testing-library/react';
 
 function App() {
   return (
-    <body>
-      <Index/>
-    </body>
+      <Product/>
   );
 }
 export default App;

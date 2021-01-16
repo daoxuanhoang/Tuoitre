@@ -11,7 +11,7 @@ class FooterBottom extends React.Component{
             <div className="col-md-3">
               <ul>
                 {this.props.title.map(e=>{
-                  return <li>{e}</li>
+                  return <li key={e}>{e}</li>
                 })}
               </ul>
             </div>
